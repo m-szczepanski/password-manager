@@ -34,7 +34,7 @@ def save():
     }
 
     if len(website) == 0 or len(username) == 0 or len(inserted_password) == 0:
-        messagebox.showerror(title="credentials error", message="Don't left any fields empty!")
+        messagebox.showerror(title="credentials error", message="Make sure you haven't left any fields empty.")
     else:
         try:
             with open("./database/database.json", "r") as data_file:
@@ -71,7 +71,7 @@ def find_password():
 window = Tk()
 window.title("PassManager")
 logo = PhotoImage(file="./logo.png")
-window.config(padx=50, pady=50, bg="#F5EAEA")
+window.config(padx=50, pady=20, bg="#F5EAEA")
 window.iconphoto(False, logo)
 window.resizable(False, False)
 
