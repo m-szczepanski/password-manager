@@ -1,4 +1,4 @@
-# password-manager
+# PassManager
  <h2>PassManager is a simple password manager that stores and keeps track of your login credentials.</h2>
  
 It stores all the data inside a json file. It's an easy to send/sycn format.<br>
